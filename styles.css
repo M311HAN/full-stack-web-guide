@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: "Lato", sans-serif;
+  color: #444; /* A slightly darker shade for text */
+}
+
+/* Container for text that needs to be justified */
+.justified-container {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+/* Card shadow */
+.card.shadow-lg {
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+img {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif; /* Use Roboto for headers */
+  color: #007bff; /* Primary color */
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  padding: 0.5rem;
+  background-color: #f0f8ff; /* Light blue */
+  border-left: 4px solid #f0f8ff; /* Blue accent on the left */
+  margin-top: 3rem;
+}
+
+p,
+ul,
+li {
+  font-family: "Lato", sans-serif; /* Keeping Lato for body text */
+  font-size: 18px;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+/* List styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: 1px solid #e0e0e0;
+  margin: 2.5rem 0;
+}
+
+/* Add padding to the card */
+.card-body {
+  padding: 2rem;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Answers</title>
+    <!-- Bootstrap CSS for styling and responsiveness -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    >
+    <!-- Google Font for consistent typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- External CSS for custom styles -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- Container for justified text content -->
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <!-- Main title -->
+              <h1 class="mb-3">
+                What is full stack web development? Full Stack Development Guide
+              </h1>
+
+              <!-- Responsive image -->
+              <img
+                src="webdevelopment.jpg"
+                alt="Full Stack Development Image"
+                class="img-fluid rounded mb-4"
+              >
+                <!-- Table of Contents -->
+                <nav id="table-of-contents" class="mb-4">
+                  <h2>Table of Contents</h2>
+                  <ul>
+                    <li><a href="#full-stack">What is full stack web development?</a></li>
+                    <li><a href="#php">What is PHP?</a></li>
+                    <li><a href="#wordpress">Exactly how customisable is WordPress?</a></li>
+                    <li><a href="#mern-stack">What is the MERN stack?</a></li>
+                    <li><a href="#server-functions">What types of server functions are typically implemented for the back-end of a web application?</a></li>
+                    <li><a href="#ssr-vs-csr">What happens when a browser is used to send a request to a server? How does this differ with SSR and CSR?</a></li>
+                  </ul>
+                </nav>
+                
+            <!-- Section title -->
+            <h2 id="full-stack">What is full stack web development?</h2>
+            <p>
+              Full stack web development involves working on both the front-end
+              and back-end parts of a website or application. Essentially, it
+              covers the entire development process from design to deployment.
+              The front-end is what users interact with directly and it includes
+              everything they see on their screens, like the layout, design, and
+              how they navigate through the site. This part is built using
+              languages like HTML, CSS, and JavaScript. On the other side, the
+              back-end is the part of the website you don't see. It's
+              responsible for storing and managing data, and making sure
+              everything on the front-end works by communicating with the
+              server. Back-end developers use languages like PHP, Ruby, Python,
+              and databases like MySQL or MongoDB. In web development, a "stack"
+              refers to a set of technologies selected to work together in the
+              development of web applications. It typically includes programming
+              languages, frameworks, database systems, and servers that are used
+              for both front-end (client-side) and back-end (server-side)
+              development. Stacks are designed to facilitate a streamlined
+              development process, allowing developers to build, test, and
+              deploy web applications efficiently. Examples include the MERN
+              stack (MongoDB, Express.js, React.js, Node.js) and the LAMP stack
+              (Linux, Apache, MySQL, PHP/Python/Perl). In summary a full stack
+              developer is someone who has the skills to work on both the
+              front-end and back-end. They understand how to make a
+              user-friendly website, but also how to handle the data and
+              server-side logic that makes it function. This makes them very
+              versatile in the web development process.
+            </p>
+            <!-- Source citation and refrences that helped provide an understanding for my information -->
+            <hr>
+            <p>
+              Source:
+              <a
+                href="https://www.w3schools.com/whatis/whatis_fullstack.asp"
+                target="_blank"
+                >w3schools, 1999-2024</a
+              >
+            </p>
+            <p>
+              Source:
+              <a
+                href="https://www.mongodb.com/languages/full-stack-development"
+                target="_blank"
+                >MongoDB, 2024</a
+              >
+            </p>
+            <hr>
+            <h2 id="php">What is PHP?</h2>
+            <p>
+              PHP, or PHP: Hypertext Preprocessor, is a server-side scripting
+              language designed mainly for web development. It's a powerful tool
+              for creating dynamic and interactive websites. Unlike HTML, which
+              is client-side and static, PHP code is executed on the server,
+              allowing it to generate dynamic page content, manage databases,
+              and perform a variety of other server-side tasks before sending
+              the final page to the user's web browser. This language is
+              particularly user-friendly for new programmers because of its
+              straightforward syntax and extensive documentation. PHP integrates
+              seamlessly with HTML, making it easy to add dynamic content to web
+              pages without needing to use a lot of complex programming
+              constructs. It's also highly flexible, supporting a wide range of
+              databases and other web development technologies. PHP's
+              open-source nature means it's free to use and has a large, active
+              community of developers. This community has produced a whole bunch
+              of tutorials, forums, and pre-built modules, which can help solve
+              common web development problems and add sophisticated features to
+              sites without needing to reinvent the wheel. One of the reasons
+              PHP is so popular is its ability to interact with databases,
+              making it an excellent choice for developing web applications that
+              need to store and retrieve data, like e-commerce sites, forums,
+              and content management systems. The language has been around since
+              1994, and over the years, it has evolved to include many modern
+              programming features, making it powerful enough to run major
+              websites while still being simple enough for beginners to learn as
+              their first server-side language.
+            </p>
+            <hr>
+            <p>
+              Source:
+              <a
+                href="https://www.w3schools.com/PHP/php_intro.asp"
+                target="_blank"
+                >w3schools, 1999-2024</a
+              >
+            </p>
+            <p>
+              Source:
+              <a
+                href="https://www.hostinger.co.uk/tutorials/what-is-php/"
+                target="_blank"
+                >Hostinger Tutorials, 2004-2024</a
+              >
+            </p>
+            <hr>
+            <h2 id="wordpress">Exactly how customisable is WordPress?</h2>
+            <p>
+              WordPress is highly customisable, making it a popular choice for
+              creating a wide range of websites, from simple blogs to complex
+              e-commerce platforms. Its flexibility lies in several key
+              features:
+            </p>
+            <ul>
+              <li>
+                <b>Themes:</b> WordPress offers thousands of themes, which are
+                templates that control the appearance of a website. These themes
+                can be easily installed and switched, allowing users to change
+                the look and feel of their site with just a few clicks. Many
+                themes are highly customizable within the WordPress dashboard,
+                letting users modify colors, layout, and features without
+                needing to write any code. For more advanced customizations,
+                users can edit the theme's code directly or create a child theme
+                to modify while preserving the ability to update the parent
+                theme.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Plugins:</b> The WordPress plugin ecosystem is huge, with
+                over 50,000 free plugins available in the WordPress plugin
+                directory alone. Plugins extend the functionality of a WordPress
+                site, adding features like contact forms, SEO tools, social
+                media integration, galleries, and much more. If there's a
+                specific functionality you need, there's likely a plugin
+                available for it. And if not, developers can create custom
+                plugins to meet their specific requirements.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Widgets:</b> Widgets offer another way to customise WordPress
+                sites by adding content and features to widget-ready areas, such
+                as sidebars and footers. Widgets can include simple text boxes,
+                search bars, recent post lists, custom menus, and more,
+                providing a simple interface for adding content blocks without
+                needing to code.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Custom Post Types and Taxonomies:</b> WordPress allows for
+                the creation of custom post types and taxonomies, enabling users
+                to go beyond posts and pages to create content types that are
+                specific to their site's needs, such as products, reviews, or
+                portfolio projects. This feature is especially powerful for
+                creating structured content and organizing it in a way that
+                makes sense for the site's audience.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Page Builders:</b> For those who want more control over their
+                site's layout without delving into code, page builders offer a
+                drag-and-drop interface to create custom page layouts. Many page
+                builders work seamlessly with WordPress, allowing users to
+                design unique pages with columns, sliders, tabs, and other
+                elements without any coding knowledge.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <b>Access to Code:</b> WordPress is open-source software, which
+                means that users have full access to the code that runs their
+                site. This allows for deep customizations by those with the
+                technical skill to do so. Developers can modify virtually every
+                aspect of the site, from the front-end design to the back-end
+                functionality.
+              </li>
+            </ul>
+            <p>
+              In summary, WordPress's customisability is extensive, catering to
+              users with varying levels of technical expertise. Whether through
+              themes, plugins, widgets, page builders, or direct code edits,
+              users can tailor their WordPress site to meet almost any design or
+              functional requirement.
+            </p>
+            <hr>
+            <p>
+              Source:
+              <a
+                href="https://wordpress.org/documentation/customization/"
+                target="_blank"
+                >wordpress, 2024</a
+              >
+            </p>
+            <p>
+              Source:
+              <a
+                href="https://en-gb.wordpress.org/about/features/"
+                target="_blank"
+                >wordpress, 2024</a
+              >
+            </p>
+            <hr>
+
+            <h2 id="mern-stack">What is the MERN stack?</h2>
+            <p>
+              The MERN stack is a combination of technologies used for web
+              application development. It includes MongoDB, Express.js,
+              React.js, and Node.js. MongoDB serves as the database, offering a
+              flexible, JSON-like storage. Express.js and Node.js form the
+              backend, handling server-side tasks and enabling JavaScript to run
+              server-side. React.js is used for the frontend, creating dynamic
+              and interactive user interfaces. This stack is popular for its
+              efficiency in building full-stack applications with JavaScript
+              across both client and server sides.
+            </p>
+            <hr>
+            <p>
+              Source:
+              <a href="https://www.mongodb.com/mern-stack" target="_blank"
+                >mongodb, 2024</a
+              >
+            </p>
+            <hr>
+            <h2 id="server-functions">
+              What types of server functions are typically implemented for the
+              back-end of a web application?
+            </h2>
+            <p>
+              In the back-end of a web application, various server functions are
+              crucial for its operation. A web server handles HTTP requests from
+              clients, delivering web content like HTML pages. An application
+              server goes further by running applications, executing server-side
+              scripts to generate dynamic content, and managing business logic.
+              A proxy server acts as an intermediary, forwarding requests
+              between clients and other servers for various purposes like load
+              balancing, privacy, or security enhancements. Each plays a
+              distinct role in managing, processing, and delivering web content
+              efficiently.
+            </p>
+            <hr>
+            <p>
+              Source:
+              <a
+                href="https://www.codecademy.com/article/back-end-architecture#"
+                target="_blank"
+                >codecademy, 2024</a
+              >
+            </p>
+            <hr>
+            <h2 id="ssr-vs-csr">
+              What happens when a browser is used to send a request to a server?
+              How does this differ with SSR and CSR?
+            </h2>
+            <p>
+              When a browser sends a request to a server, it's asking for the
+              data needed to load a webpage. In Server-Side Rendering (SSR), the
+              server prepares and sends a fully rendered page to the browser,
+              ready for display. This process can enhance SEO and initial page
+              load times. Client-Side Rendering (CSR), conversely, sends a
+              minimal HTML document with JavaScript to the browser, where the
+              rendering of the page content occurs. CSR can result in smoother
+              user experiences with dynamic content but can lead to slower
+              initial page loads because the browser must first download, parse,
+              and execute JavaScript before rendering the page content. This
+              delay can affect user experience, especially on mobile devices or
+              slow internet connections. Additionally, CSR presents challenges
+              for Search Engine Optimization (SEO) because search engines may
+              have difficulty indexing content that is dynamically rendered with
+              JavaScript, potentially impacting a site's visibility and rankings
+              in search results.
+            </p>
+            <hr>
+            <p>
+              Source:
+              <a
+                href="https://www.searchenginejournal.com/client-side-vs-server-side/482574/#"
+                target="_blank"
+                >SearchEngineJournal, 2024</a
+              >
+            </p>
+            <hr>
+    </div> <!-- Close .card-body -->
+    </div> <!-- Close .card -->
+    </div> <!-- Close .col-lg-8 -->
+    </div> <!-- Close .row -->
+    </div> <!-- Close .container -->
+    <button id="scrollToTopBtn" class="btn btn-primary" style="display: none; position: fixed; bottom: 20px; right: 20px;">Top</button>
+    <!-- Bootstrap JS for interactive components -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
