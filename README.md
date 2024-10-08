@@ -1,5 +1,7 @@
 # Full Stack Web Guide
 
+![Homepage](assets/Homepage.png)
+
 Welcome to Full Stack Web Guide, an educational project designed to provide an in-depth overview of full-stack web development concepts. This site covers key topics like front-end and back-end development, popular technologies, development stacks (like the MERN stack), server functions, and more. The content is tailored to give both beginners and intermediate developers a comprehensive understanding of what it means to be a full-stack developer.
 
 ## Table of Contents
